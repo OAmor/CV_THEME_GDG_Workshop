@@ -1,0 +1,136 @@
+/* Global Styles */
+body{
+	font-family: arial;
+	margin: 0;
+}
+.container{
+	width:1170px;
+	margin:0 auto ;
+}
+
+/* Start Header Styles */
+.header{
+	background-color: #d82c2e;
+	width: 100%;
+	height: 650px 
+}
+.menu-wrapper{
+	display: block;
+	margin-bottom: 10px;
+	height: 100px
+}
+.menu{
+	margin: 0;
+	list-style: none;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px
+}
+.menu li{
+	display: inline-block;
+	margin: 0 15px;
+	padding: 10px
+}
+.menu li:hover{
+	border-bottom: 1px solid #fff
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.header-content{
+	text-align: center;
+}
+.header-content img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%
+}
+.header-content h3{
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 10px 
+}
+.header-content h5{
+	font-size: 25px;
+	color: #333
+}
+.cv-button{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	border-radius: 10px
+}
+.cv-button:hover{
+	color: #d82c2e;
+	background-color: #fff
+}
+/* End Header Styles */
+/* Start About Styles */
+.about{
+	background-color: #f7f8f8;
+	height: 320px;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 24px
+}
+.about h2{
+	color: #d82c2e;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 35px 
+}
+/* End About Styles */
+
+/* Start Skills Section */
+.skills{
+	text-align: center;
+	background: #d82c2e;
+	height: 400px
+}
+
+.skills h2{
+	color: #d82c2e;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 35px 
+}
+/* End Skills Section */
+
+/* Start Contact Me Section */
+.contact{
+	background-color: #f7f8f8;
+	height: 250px;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 24px
+}
+.contact h2{
+	color: #d82c2e;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	font-size: 35px 
+}
+
+.contact input{
+	border: 1px solid #b6b7b7;
+	color: #363b3f;
+	background: 0 0;
+	padding: 15px 30px;
+	margin: 0 3% 20px 0;
+	resize: none;
+	width: 25%
+}
+.contact textarea{
+	border: 1px solid #b6b7b7;
+	color: #363b3f;
+	background: 0 0;
+	padding: 15px 30px;
+	margin: 0 3% 20px 0;
+	resize: none;
+	width: 59%
+}
+/* End Contact Me Section */
