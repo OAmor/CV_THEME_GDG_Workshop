@@ -119,7 +119,7 @@ body{
 /* Start Contact Me Section */
 .contact{
 	background-color: #f7f8f8;
-	height: 250px;
+	height: 280px;
 	text-align: center;
 	padding-top: 30px;
 	font-size: 24px
@@ -150,3 +150,20 @@ body{
 	width: 59%
 }
 /* End Contact Me Section */
+/* Start Footer Section */
+.footer{
+	text-align: center;
+	height: 150px;
+	background: #363b3f;
+	color: #fff;
+	padding-top: 15px
+}
+.footer p{
+	font-size: 19px;
+}
+.footer .social a{
+	text-decoration: none;
+	color: #f7f8f8;
+	margin: 10px
+}
+/* End Footer Section */
