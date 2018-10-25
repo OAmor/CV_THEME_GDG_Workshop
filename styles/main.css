@@ -89,14 +89,30 @@ body{
 .skills{
 	text-align: center;
 	background: #d82c2e;
-	height: 400px
+	height: 400px;
+	padding-top: 30px
 }
 
 .skills h2{
-	color: #d82c2e;
+	color: #f7f8f8;
 	margin-top: 0px;
 	margin-bottom: 25px;
-	font-size: 35px 
+	font-size: 35px;
+}
+.skills .skills-desc{
+	color: #f7f8f8;
+	font-size: 19px
+}
+.skills .my-skills{
+	text-align: center;
+	padding: 10px 12%
+}
+
+.skills .skill{
+	margin: 50px
+}
+.skill span{
+	color: #d82c2e
 }
 /* End Skills Section */
 
