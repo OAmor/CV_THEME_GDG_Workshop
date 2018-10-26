@@ -2,6 +2,7 @@
 body{
 	font-family: arial;
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 .container{
 	width:1170px;
@@ -29,10 +30,13 @@ body{
 .menu li{
 	display: inline-block;
 	margin: 0 15px;
-	padding: 10px
+	padding: 10px;
+	transition: .3s;
 }
 .menu li:hover{
-	border-bottom: 1px solid #fff
+	transition: .3s;
+	border-bottom: 1px solid #fff;
+
 }
 
 .menu li a{
@@ -45,7 +49,13 @@ body{
 .header-content img{
 	width: 300px;
 	height: 300px;
-	border-radius: 50%
+	border-radius: 50%;
+	box-shadow: #2f2f2f 3px 3px 20px;
+	transition: .3s;
+}
+.header-content img:hover{
+	transition: .3s;
+	box-shadow:  0px 0px 0px;
 }
 .header-content h3{
 	color: #fff;
@@ -62,13 +72,15 @@ body{
 	color: #fff;
 	border: 1px solid #fff;
 	padding: 10px 20px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	transition: .3s;
+	box-shadow: #cfcfcf 0px 5px 9px 0px;
 }
 .cv-button:hover{
 	color: #d82c2e;
 	background-color: #fff;
 	transition: .3s;
+	box-shadow: #cfcfcf 0px 2px 9px 0px;
 }
 /* End Header Styles */
 
@@ -156,15 +168,15 @@ input[type=submit]{
 	color: #d82c2e;
 	font-size: 20px;
 	transition: .3s;
-	border-radius: 10px;
+	box-shadow: #3b3b3b 0px 12px 20px 0px;
 }
 input[type=submit]:hover{
 	color: white;
 	transition: .3s;
 	background-color: #d82c2e;
-	border-color: white;
+	border-color: #d82c2e;
 	cursor: pointer;
-
+	box-shadow: #3b3b3b 0px 3px 14px 0px;
 }
 /* End Contact Me Section */
 /* Start Footer Section */
@@ -182,5 +194,21 @@ input[type=submit]:hover{
 	text-decoration: none;
 	color: #f7f8f8;
 	margin: 10px
+}
+#facebook:hover{
+	color: #195ba3;
+	transition: .3s;
+}
+#twitter:hover{
+	color: #69c6f0;
+	transition: .3s;
+}
+#google:hover{
+	color: #c95941;
+	transition: .3s;
+}
+#youtube:hover{
+	color: #d7593e;
+	transition: .3s;
 }
 /* End Footer Section */
